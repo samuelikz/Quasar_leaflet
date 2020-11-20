@@ -1,11 +1,13 @@
 <template>
-  <q-page padding>
-    <!-- content -->
+  <q-page>
+    <Mapid/>
   </q-page>
 </template>
 
 <script>
+import Mapid from '../components/Mapid'
 export default {
-  // name: 'PageName',
+  name: 'PageName',
+  components: { Mapid }
 }
 </script>

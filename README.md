@@ -4,7 +4,7 @@ A Quasar Framework app
 
 ## Install the dependencies
 ```bash
-yarn
+npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
@@ -14,7 +14,7 @@ quasar dev
 
 ### Lint the files
 ```bash
-yarn run lint
+npm install vue2-leaflet leaflet --save
 ```
 
 ### Build the app for production
